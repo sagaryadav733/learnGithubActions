@@ -9,6 +9,7 @@ jobs:
       - name: Install Java
         uses: actions/setup-java@v4
         with:
+          distribution: 'temurin'
           java-version: '17'
       - name: Install Maven
         uses: stCarolas/setup-maven@v4.5
